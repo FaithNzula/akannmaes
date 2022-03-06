@@ -53,3 +53,24 @@
 
 
 
+                if (gender === "F") {
+                    if (dow === 1) {
+                        name = "Adwoa";
+                    } else if (dow === 2) {
+                        name = "Abenaa";
+                    } else if (dow === 3) {
+                        name = "Akua";
+                    } else if (dow === 4) {
+                        name = "Yaa";
+                    } else if (dow === 5) {
+                        name = "Afua";
+                    } else if (dow === 6) {
+                        name = "Ama";
+                    } else if (dow === 7) {
+                        name = "Akosua";
+                    }
+                }
+
+
+
+
