@@ -26,5 +26,30 @@
                  // Use the year to extract century
 
                  const CC = Math.floor((year - 1) / 100) + 1;
-                 
+                  // use year to get last two digits for year eg if its 2022will get 22
+                  const YY = year.toString().slice(-2);
+
+                  const dow = date.getDay();
+                  let name = "";
+
+
+                  if (gender === "M") {
+                    if (dow === 1) {
+                        name = "Kwadwo";
+                    } else if (dow === 2) {
+                        name = "Kwabena";
+                    } else if (dow === 3) {
+                        name = "Kwaku";
+                    } else if (dow === 4) {
+                        name = "Yaw";
+                    } else if (dow === 5) {
+                        name = "Kofi";
+                    } else if (dow === 6) {
+                        name = "Kwame";
+                    } else if (dow === 7) {
+                        name = "Kwasu";
+                    }
+                }
+
+
 
