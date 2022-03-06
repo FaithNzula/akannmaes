@@ -75,6 +75,13 @@
                     alert('Akan name is: ' + name)
                }
 
+            
+
+            });
+        });
+    }, false);
+})();       
+
 
 
 
