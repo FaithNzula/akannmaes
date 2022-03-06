@@ -17,3 +17,14 @@
                 // get date of birth and gender from html
                 const dateOfBirth = document.getElementById('bday').value;
                 const gender = document.getElementById('gender').value;
+                // convert date to readable format then extract month day and year
+                const date = new Date(dateOfBirth),
+                month = '' + (date.getMonth() + 1),
+                day = '' + date.getDate(),
+                year = date.getFullYear();
+
+                 // Use the year to extract century
+
+                 const CC = Math.floor((year - 1) / 100) + 1;
+                 
+
