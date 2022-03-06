@@ -71,6 +71,10 @@
                     }
                 }
 
+                if (form.checkValidity()===true){
+                    alert('Akan name is: ' + name)
+               }
+
 
 
 
