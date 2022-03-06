@@ -25,6 +25,28 @@
         middle name.</p>
     <p class="details">Enter your birth date and gender to find out what you Akan name
         <hr class="my-6">
+        <form class="akan-form" novalidate>
+            <div class="form-row">
+                <div class="col-md-4 mb-3">
+                    <label for="bday"><b>Date of Birth </b></label>
+                    <input type="date" class="form-control" id="bday" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="gender"><b>Gender</b></label>
+                    <select class="custom-select" id="gender" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please select a valid option.
+                    </div>
+                </div>
+    
+            </div>
 
     </div>
     
