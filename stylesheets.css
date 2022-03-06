@@ -34,3 +34,10 @@
     text-decoration: none;
     text-size-adjust: 40px;
 }
+.button
+{
+    float: left;
+    padding: 15px 32px;
+    
+    
+}
