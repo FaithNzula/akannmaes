@@ -11,3 +11,9 @@
                     event.preventDefault();
                     event.stopPropagation();
                 }
+
+                form.classList.add('was-validated');
+                 
+                // get date of birth and gender from html
+                const dateOfBirth = document.getElementById('bday').value;
+                const gender = document.getElementById('gender').value;
