@@ -38,6 +38,16 @@
 {
     float: left;
     padding: 15px 32px;
+
     
-    
+}
+.flexcontainor
+{
+padding: 100px;
+margin-bottom: 200px;
+height:max-content;
+padding: ;
+background-color;
+flex-basis: max content;
+position: relative;
 }
