@@ -51,3 +51,6 @@ height:max-content;
 flex-basis: max content;
 position: relative;
 }
+.submit {
+    float: left;
+}
