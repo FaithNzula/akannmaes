@@ -24,6 +24,8 @@
   
   clone the project and open the index.html file on your favourite browser.
   
+  https://github.com/FaithNzula/akannmaes.git
+  
   
   
   # lisence
